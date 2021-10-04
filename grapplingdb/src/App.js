@@ -7,7 +7,7 @@ import Sc from './Components/Sc';
 import Nutrition from './Components/Nutrition';
 import Philosophy from './Components/Philosophy';
 import './App.css';
-
+import NoGiSideControl from './Components/NoGiSideControl';
 
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
       <Route exact path='/sc' component={Sc} />
       <Route exact path='/nutrition' component={Nutrition} />
       <Route exact path='/philosophy' component={Philosophy} />
+      <Route exact path='/no-gi/side-control' component={NoGiSideControl} />
     </div>
   );
 }

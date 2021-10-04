@@ -1,9 +1,10 @@
 import React from 'react';
+import { Route, Link } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-
+import NoGiSideControl from './NoGiSideControl';
 
 function Navi() {
     return (
@@ -31,7 +32,7 @@ function Navi() {
           <NavDropdown.Item href="/no-gi/open-guard">Open Guard</NavDropdown.Item>
           <NavDropdown.Item href="/no-gi/closed-guard">Closed Guard</NavDropdown.Item>
           <NavDropdown.Item href="/no-gi/half-guard">Half Guard</NavDropdown.Item>
-          <NavDropdown.Item href="/no-gi/side-control">Side Control</NavDropdown.Item>
+          <NavDropdown.Item href='/no-gi/side-control'>Side Control</NavDropdown.Item>
           <NavDropdown.Item href="/no-gi/knee-on-belly">Knee on Belly</NavDropdown.Item>
           <NavDropdown.Item href="/no-gi/mount">Mount</NavDropdown.Item>
           <NavDropdown.Item href="/no-gi/rear-mount">Rear Mount</NavDropdown.Item>
